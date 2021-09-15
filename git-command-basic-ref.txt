@@ -22,12 +22,12 @@ git reflog                          show a log of changes to the local repositor
 
 
 GIT BRANCHES                    
-git branch	                        List all local branches.
-git checkout -b <branch>            Create a local branch and switch to it.	(-b = check it out)
-git merge <branch>                  Merge <branch> into the current branch.
+git branch                          list all local branches.
+git checkout -b <branch>            create a local branch and switch to it.	(-b = check it out)
+git merge <branch>                  merge <branch> into the current branch.
 
 REMOTE REPOSITORIES
-git remote add <name> <url>         Create a new connection to a remote repo. After adding a remote, you can use <name> as a shortcute for <url> in other commands.
+git remote add <name> <url>         create a new connection to a remote repo. After adding a remote, you can use <name> as a shortcute for <url> in other commands.
 git fetch <remote> <branch>         fetches a specific <branch>, from the repo. Leave off <branch> to fetch all remote refs.
 git pull <remote>                   fetch the specified remote's copy of current branch and immediately merge it into the local copy.
 git push <remote> <branch>          push the branch to <remote>, along with necessary commits and objects. Created named branch in the remote repo if it doesn't exist.
